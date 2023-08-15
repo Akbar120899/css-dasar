@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- feathericon -->
+    <script src="https://unpkg.com/feather-icons"></script>
+    <!-- my style -->
+    <link rel="stylesheet" href="css/style.css" />
+    <title>belajar css</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <ul class="halaman">
+        <li>
+          <a href="https://akbar120899.github.io/html-dasar/">html dasar</a>
+        </li>
+        <li>
+          <a href="https://akbar120899.github.io/css-layouting/"
+            >css layouting</a
+          >
+        </li>
+        <li><a href="https://akbar120899.github.io/css-3/">css 3</a></li>
+        <li>
+          <a href="https://akbar120899.github.io/css-flexbox/">css flexbox</a>
+        </li>
+        <li><a href="https://akbar120899.github.io/css-grid/">css grid</a></li>
+      </ul>
+      <h1 class="judul">Css Dasar</h1>
+      <ul class="bagian">
+        <li><a href="#bagiantext">text styling</a></li>
+        <li><a href="#background">background</a></li>
+        <li><a href="#pseudo-class">pseudo class</a></li>
+      </ul>
+    </nav>
+    <div class="garis"></div>
+
+    <!-- belajar font css -->
+    <section class="font">
+      <h1 class="fontstyling">#Font Styling</h1>
+      <p>
+        pertama yang kita pelajari adalah bagai mana kita memberikan style pada
+        sebuah font. css memisahkan antara font dengan text.
+      </p>
+      <p>perbedaan font dan text adalah</p>
+      <dl>
+        <dt><li>perbedaan font dan text adalah</li></dt>
+        <dd>
+          <li type="circle">font terkait dengan tulisannya atau typefesenya</li>
+          <li type="circle">text terkait dengan propery pendukung</li>
+        </dd>
+      </dl>
+      <!-- property font -->
+      <h3 class="font-property">
+        a. property-property yang dimiliki css terkait dengan font
+      </h3>
+      <dl>
+        <dt><li>font-family</li></dt>
+        <dd><li type="circle">mengatur jenis font yang akan digunakan</li></dd>
+        <dt><li>font-size</li></dt>
+        <dd><li type="circle">mengatur ukuran font</li></dd>
+        <dt><li>font-weight</li></dt>
+        <dd><li type="circle">mengatur ketebalan font</li></dd>
+        <dt><li>font-variant</li></dt>
+        <dd>
+          <li type="circle">
+            mengubah font menjadi small caps/hurf kapital semua dll
+          </li>
+        </dd>
+        <dt><li>font-style</li></dt>
+        <dd><li type="circle">mengubah font menjadi cetak miring</li></dd>
+        <dt><li>line-height</li></dt>
+        <dd><li type="circle">mengatur spasi antara baris huruf</li></dd>
+      </dl>
+      <!-- property font-family -->
+      <h4>a. font-family untuk mengubah jenis font</h4>
+      <p>valuenya ada dua yaitu nama font dan generic family</p>
+      <p>contohnya</p>
+      <dl>
+        <dt><li>font-family: arial, verdana, sans-serif atau serif</li></dt>
+        <dd>
+          <li type="circle">
+            property font-famili valuenya boleh lebih dari satu dan di akhir
+            yang bertulisan sans-serif dalah generic-family.
+          </li>
+          <li type="circle">
+            generic-family= sans-serif font yang tidak memiliki kaki sedangkan
+            serif memiliki kaki
+          </li>
+        </dd>
+      </dl>
+      <!-- proprty font size -->
+      <h4>b. font-size untuk mengubah ukuran font</h4>
+      <dl>
+        <dt><li>font-size</li></dt>
+        <dd><li type="circle">valuenya= px, %, em dll</li></dd>
+      </dl>
+      <!-- property font-weight -->
+      <h4>c. font-weight untuk mengatur ketebalan font</h4>
+      <dl>
+        <dt><li>font-weight</li></dt>
+        <dd>
+          <li type="circle">
+            valuenya= lighter, normal, 100-900, bold, bolder
+          </li>
+        </dd>
+      </dl>
+      <!-- property font-varian -->
+      <h4>d. font-variant untuk mengubah huruf besar atau kecil semua</h4>
+      <dl>
+        <dt><li>font-variant</li></dt>
+        <dd><li type="circle">valuenya= normal,small-caps</li></dd>
+      </dl>
+      <!-- property font-style -->
+      <h4>e. font-style untuk mengubah vont menjadi miring</h4>
+      <dl>
+        <dt><li>font-style</li></dt>
+        <dd><li type="circle">normal, italic, oblique</li></dd>
+      </dl>
+      <!-- property line-height -->
+      <h4>f. line-height untuk mengatur jarak antara baris</h4>
+      <dl>
+        <dt><li>line-height</li></dt>
+        <dd><li>normal, px, em</li></dd>
+      </dl>
+    </section>
+    <!-- belajar text styling -->
+    <section class="text">
+      <h1 id="bagiantext" class="textstyling-judul">#Text Styling</h1>
+      <p>
+        text pada css terkait dengan property pendukungnya seperti warna,
+        indentas, jarak antar kata, jarak antar huruh dll
+      </p>
+      <h3 class="text-property">a. berbagai property text di dalam css</h3>
+      <dl>
+        <dt class="color"><li>color</li></dt>
+        <dd><li type="circle">untuk memberi warnah pada tulisan</li></dd>
+        <dt class="align">
+          <li>text-align</li>
+        </dt>
+        <dd>
+          <li type="circle">
+            untuk mengatur format pragraf/teks, seperti rata kiri, rata kanan
+            atau rata kiri dan kanan
+          </li>
+        </dd>
+        <dt class="indent"><li>text-indent</li></dt>
+        <dd>
+          <li type="circle">
+            memberi indentasi pada pragraf/text atau menggeser tulisan yang
+            pertama
+          </li>
+        </dd>
+        <dt class="decoration"><li>text-decoration</li></dt>
+        <dd>
+          <li type="circle">
+            mengatur dekorasi pada teks atau memberi teks seperti di coret
+          </li>
+        </dd>
+        <dt class="transform"><li>text-transform</li></dt>
+        <dd>
+          <li type="circle">
+            mengubah jenis huruf menjadi huruf besar, kecil/kapital seperti
+            membuat hurf besar semua pada teks atau sebaliknya
+          </li>
+        </dd>
+        <dt class="spaccing"><li>letter-spaccing</li></dt>
+        <dd>
+          <li type="circle">
+            mengatur spasi antar huruf atau tingkat kerapatan/kerenggangan
+          </li>
+        </dd>
+        <dt class="word"><li>word-spacing</li></dt>
+        <dd>
+          <li type="circle">
+            mengatur spasi antar kata hampir mirip letter-spacing,
+          </li>
+        </dd>
+      </dl>
+      <h3 class="contoh-font-text">contoh font dan text di gabung</h3>
+      <p class="p">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis
+        officia ipsam vel, laudantium architecto autem sint nemo quibusdam ab
+        quod nesciunt unde eos libero, accusantium, consectetur molestiae
+        aperiam voluptatem harum. Doloremque incidunt eum natus ad voluptatibus
+        neque dolores, magnam commodi architecto eaque iste eveniet quas
+        veritatis molestias, consequuntur facilis voluptas consequatur suscipit
+        ducimus numquam tenetur maiores! Consequatur sit fugiat distinctio.
+        Voluptates vitae nemo dolorem quod explicabo accusantium. Ipsa,
+        voluptatem quas molestiae doloremque culpa voluptate id at sapiente
+        maxime eos qui cumque fugit reiciendis esse odio necessitatibus. Sed
+        maxime accusamus voluptatum. Exercitationem asperiores praesentium ab!
+        Est, delectus. Soluta alias necessitatibus minima placeat culpa in
+        ducimus totam ab vel veritatis beatae, voluptatem velit illum. Animi,
+        quasi? Ratione id illum quaerat error debitis. Veritatis, mollitia
+        veniam numquam architecto sunt voluptate sit iste repellat. Mollitia,
+        perferendis veniam reiciendis ad porro animi dicta ullam tempore quo
+        illo, voluptate, similique neque cum voluptates aspernatur dolorem
+        cumque.
+      </p>
+    </section>
+    <!-- belajar background -->
+
+    <secttion class="background">
+      <h1 id="background" class="background-judul"># Background</h1>
+      <p>
+        di dalam css itu kita dapat memberikan background pada elemen-elemen
+        yang ada termasuk halamanya sendiri
+      </p>
+      <h3>property pada background ad 4</h3>
+      <dl>
+        <dt class="background1"><li>background-color</li></dt>
+        <dd><li type="circle">mengatur warna pada background</li></dd>
+        <dt class="background1"><li>background-image</li></dt>
+        <dd>
+          <li type="circle">
+            mengatur gambar yang akan di gunakan pada background
+          </li>
+        </dd>
+        <dt class="background1"><li>background-position</li></dt>
+        <dd><li type="circle">mengatur posisi gambar pada background</li></dd>
+        <dt class="background1"><li>background-repeat</li></dt>
+        <dd>
+          <li type="circle">mengatur jenis pengulangan pada background</li>
+        </dd>
+        <p>catatan: bisa digunakan semua atau satu saja</p>
+      </dl>
+    </secttion>
+
+    <!-- belajar pseudo class -->
+    <section class="pseudo">
+      <h1 class="pseudo-judul" id="pseudo-class">
+        # Pseudo-Class / Membuat Elemen Html Lbih Kompleks/Syantick
+      </h1>
+
+      <p>
+        maksudnya adalah kelas semu yang dimiliki oleh sebuah elemen html, yang
+        membuat kita dapat mendefinisikan style pada "keadaan tertentu" dari
+        elemen tersebut
+      </p>
+      <p>
+        pseudo-class ini lebih berkaitan dengan lenk atau dengan elemen yang
+        bisa di klik agar dapat di ubah warnah atau posisi di sat di klik
+      </p>
+      <dl>
+        <dt>
+          <li>
+            pseudo-class ini terbagi beberapa type diantaranya seperti di bawah
+          </li>
+          <ol type="1">
+            <li>empat type di bawah ini lebih berhubungan dengan link</li>
+          </ol>
+        </dt>
+        <dt class="link"><li>: link</li></dt>
+        <dd>
+          <li type="circle">
+            style default pada sebuah link (a yang memiliki href)
+          </li>
+        </dd>
+        <dt><li>: hover</li></dt>
+        <dd>
+          <li type="circle">
+            style ketika kursor mouse berada di atas sebuah link/elemen
+          </li>
+          <li type="circle">
+            pseudo-class ini aktif/ada perubahan ketika link/elemen di sorot
+            menggunakan mouse (tempatkan mouse ke atas elemennya baru bisa
+            aktif)
+          </li>
+        </dd>
+        <dt><li>: active</li></dt>
+        <dd>
+          <li type="circle">
+            style ketika sebuah link di klik agar membuatnya aktif (keadaan
+            aktif)
+          </li>
+          <li type="circle">
+            pseudo-class ini aktif/ada perubahan ketika link/elemen di klik
+            (tempatkan mouse ke atas elemennya kemudian klik baru bisa aktif)
+          </li>
+        </dd>
+        <dt><li>: visited</li></dt>
+        <dd>
+          <li type="circle">
+            style ketika sebuah link sudah pernah di kunjungi sebelumnya
+            (menggunakan browser yang sama) akan menampilkan warnah yang berbeda
+            atau ingin membuatnya tidak ad perbedan
+          </li>
+        </dd>
+        <ol type="1">
+          <li>kemudian tiga type ini lebih berhubungan dengan posisi elemen</li>
+        </ol>
+        <dt><li>: first-child</li></dt>
+        <dd>
+          <li type="circle">
+            memilih elemen pertama dari sebuah parent (elemen pembungkusnya)
+          </li>
+        </dd>
+        <dt><li>: last-child</li></dt>
+        <dd>
+          <li type="circle">
+            memilih elemen terakhir dari sebuah parent (elemen pembungkusnya)
+          </li>
+        </dd>
+        <dt><li>: nth-child(n)</li></dt>
+        <dd>
+          <li type="circle">
+            memilih elemen ke-n dari sebuah parent (elemen pembungkusnya)
+          </li>
+        </dd>
+        <dd>
+          <li type="circle">
+            n bisa berarti urutan (1), (2),... atau pola (2n), (3n+2), (4n-1)
+            atau ganjil dan genap (event)&(odd)
+          </li>
+        </dd>
+      </dl>
+      <a class="pseudo2" href="#">hello world</a>
+
+      <ul>
+        <li><a href="#">link 1</a></li>
+        <li><a href="#">link 2</a></li>
+        <li><a href="#">link 3</a></li>
+        <li><a href="#">link 4</a></li>
+        <li><a href="#">link 5</a></li>
+        <li><a href="#">link 6</a></li>
+        <li><a href="#">link 7</a></li>
+        <li><a href="#">link 8</a></li>
+        <li><a href="#">link 9</a></li>
+        <li><a href="#">link 10</a></li>
+      </ul>
+    </section>
+
+    <!-- footer -->
+    <footer>
+      <div class="social">
+        <a href="#"><li data-feather="youtube"></li></a>
+        <a href="#"><li data-feather="instagram"></li></a>
+        <a href="#"><li data-feather="facebook"></li></a>
+        <a href="#"><li data-feather="twitter"></li></a>
+      </div>
+      <div class="menu">
+        <a href="#bagiantext">text styling</a>
+        <a href="#background">background</a>
+        <a href="#pseudo-class">pseudo class</a>
+      </div>
+
+      <div class="copy">
+        <p>created by <a href="#">muhammad akbar</a>. | &copy; 2023.</p>
+      </div>
+    </footer>
+
+    <!-- feathericon -->
+    <script>
+      feather.replace();
+    </script>
+  </body>
+</html>

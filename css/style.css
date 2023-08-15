@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #eaeaea;
+  background-color: rgb(116, 92, 26);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.7rem 7% 0 7%;
+  background-color: rgba(231, 154, 10, 0.7);
+  border-bottom: 2px solid rgb(255, 188, 62);
+  position: fixed;
+  z-index: 9999;
+  left: 0;
+  right: 0;
+}
+
+.halaman li {
+  padding: 2px 3px;
+}
+
+.halaman a {
+  color: #eaeaea;
+  text-decoration: none;
+}
+
+.halaman a:hover {
+  color: rgb(31, 27, 27);
+  background-color: #eaeaea;
+}
+
+.judul {
+  font-size: 2rem;
+  font-variant: small-caps;
+}
+
+.bagian li {
+  padding: 2px 3px;
+}
+
+.navbar .bagian a {
+  color: #eaeaea;
+  text-decoration: none;
+}
+
+.bagian a:hover {
+  color: rgb(31, 27, 27);
+  background-color: #eaeaea;
+}
+
+.garis {
+  height: 9rem;
+}
+
+/* beljar font */
+.font {
+  padding: 2rem 4% 0 4%;
+}
+
+.fontstyling {
+  display: inline-block;
+  background-color: #377009;
+  padding: 1rem 2rem;
+  font-variant: small-caps;
+}
+
+.font dd li {
+  margin-left: 2rem;
+}
+
+.font h4 {
+  margin: 1rem 0 0 1rem;
+}
+
+/* belajar text */
+.text {
+  margin: 2rem 4% 0 4%;
+}
+
+.text .textstyling-judul {
+  display: inline-block;
+  background-color: #377009;
+  padding: 1rem 2rem;
+  font-variant: small-caps;
+}
+
+.text dd li {
+  margin-left: 2rem;
+}
+
+/* background */
+.background {
+  margin: 2rem 4% 0 4%;
+}
+
+.background .background-judul {
+  display: inline-block;
+  background-color: #377009;
+  padding: 1rem 2rem;
+  font-variant: small-caps;
+}
+
+/* pseudo */
+
+.pseudo {
+  margin: 2rem 4% 0 4%;
+}
+
+.pseudo .pseudo-judul {
+  display: inline-block;
+  background-color: #377009;
+  padding: 1rem 2rem;
+  font-variant: small-caps;
+}
+
+.pseudo dd li {
+  margin-left: 2rem;
+}
+
+/* footer */
+footer {
+  background-color: #e6800c;
+  text-align: center;
+  margin-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+footer .social {
+  padding: 1rem 1rem;
+}
+footer .social a {
+  padding: 0 1rem;
+  color: #eaeaea;
+}
+
+footer .social a:hover {
+  color: #377009;
+}
+
+footer .menu {
+  padding: 0 0 0.5rem 0;
+}
+
+footer .menu a {
+  padding: 0 1rem;
+  color: #eaeaea;
+}
+
+footer .menu a:hover {
+  color: #377009;
+}
+
+footer .copy {
+  font-size: 0.8rem;
+  color: #eaeaea;
+  padding-top: 1rem;
+}
+
+footer .copy a {
+  font-weight: bold;
+  color: rgb(32, 30, 30);
+}
